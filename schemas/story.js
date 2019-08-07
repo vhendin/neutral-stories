@@ -17,6 +17,13 @@ export default {
       of: [{ type: 'actor' }],
       required: true,
       description: 'The actors used in the story',
-    }
+    },
+    {
+      name: 'body',
+      title: 'Body',
+      description: 'The actual story',
+      type: 'body',
+      required: true,
+    },
   ]
 }
