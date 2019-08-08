@@ -1,7 +1,10 @@
+import Icon from 'react-icons/lib/md/person'
+
 export default {
   name: 'actor',
   title: 'Actor',
   type: 'document',
+  icon: Icon,
   fields: [
     {
       name: 'defaultName',

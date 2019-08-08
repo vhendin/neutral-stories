@@ -31,7 +31,7 @@ export default {
           },
           {
             name: 'subjectivePersonalPronoun',
-            title: 'Han, hon, hen',
+            title: 'Han, hon, hen (subjective personal pronoun)',
             type: 'reference',
             to: [{type: 'actor'}],
             blockEditor: {
@@ -40,7 +40,7 @@ export default {
           },
           {
             name: 'objectivePersonalPronoun',
-            title: 'Honom, henne, henom',
+            title: 'Honom, henne, henom (objective personal pronoun)',
             type: 'reference',
             to: [{type: 'actor'}],
             blockEditor: {
@@ -49,7 +49,7 @@ export default {
           },
           {
             name: 'possessivePronoun',
-            title: 'hans, hennes, hens',
+            title: 'hans, hennes, hens (possessive pronoun)',
             type: 'reference',
             to: [{type: 'actor'}],
             blockEditor: {

@@ -1,0 +1,18 @@
+*[_type == "story" && _id == '3feb8659-bb2c-4e9f-a4c8-44519d1e7361'] {
+  'story': body[] {
+  	'children': children[] {
+      text,
+      marks
+    },
+		'markDefs': markDefs[]{
+      'actor': *[_type == 'actor' && _id == ^._ref][0]{
+        defaultName,
+        'id': _id,
+        defaultGender
+      },
+			'key': _key,
+			'type': _type
+    }
+	},
+	body
+}

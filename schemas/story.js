@@ -1,7 +1,10 @@
+import Icon from 'react-icons/lib/md/book'
+
 export default {
   name: 'story',
   title: 'Story',
   type: 'document',
+  icon: Icon,
   fields: [
     {
       name: 'title',
