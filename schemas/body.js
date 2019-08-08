@@ -12,7 +12,49 @@ export default {
         decorators: [],
         annotations: [
           {
-            name: 'actor', title: 'Actors', type: 'reference', to: {type: 'actor'}
+            name: 'name',
+            title: 'Namn',
+            type: 'reference',
+            to: [{type: 'actor'}],
+            blockEditor: {
+              icon: () => 'N'
+            }
+          },
+          {
+            name: 'namePossessive',
+            title: 'Namn (possessive)',
+            type: 'reference',
+            to: [{type: 'actor'}],
+            blockEditor: {
+              icon: () => 'NP'
+            }
+          },
+          {
+            name: 'subjectivePersonalPronoun',
+            title: 'Han, hon, hen',
+            type: 'reference',
+            to: [{type: 'actor'}],
+            blockEditor: {
+              icon: () => 'SPP'
+            }
+          },
+          {
+            name: 'objectivePersonalPronoun',
+            title: 'Honom, henne, henom',
+            type: 'reference',
+            to: [{type: 'actor'}],
+            blockEditor: {
+              icon: () => 'OPP'
+            }
+          },
+          {
+            name: 'possessivePronoun',
+            title: 'hans, hennes, hens',
+            type: 'reference',
+            to: [{type: 'actor'}],
+            blockEditor: {
+              icon: () => 'PP'
+            }
           }
         ]
       }

@@ -11,14 +11,6 @@ export default {
       description: 'Name your story',
     },
     {
-      name: 'actors',
-      title: 'Actors',
-      type: 'array',
-      of: [{ type: 'actor' }],
-      required: true,
-      description: 'The actors used in the story',
-    },
-    {
       name: 'body',
       title: 'Body',
       description: 'The actual story',

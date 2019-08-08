@@ -5,7 +5,6 @@ import schemaTypes from 'all:part:@sanity/base/schema-type';
 import actor from './actor.js';
 import story from './story.js';
 import body from './body.js';
-import cast from './cast.js';
 
 export default createSchema({
   name: 'default',
@@ -13,6 +12,5 @@ export default createSchema({
     actor,
     story,
     body,
-    cast,
   ])
 });

@@ -1,7 +1,7 @@
 export default {
   name: 'actor',
   title: 'Actor',
-  type: 'object',
+  type: 'document',
   fields: [
     {
       name: 'defaultName',
